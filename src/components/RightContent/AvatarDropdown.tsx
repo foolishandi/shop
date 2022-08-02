@@ -33,11 +33,11 @@ const loginOut = async () => {
 };
 
 const AvatarDropdown: React.FC<GlobalHeaderRightProps> = (props) => {
-  console.log('a',props);
-  const {menu,dispatch,todo}=props
+  // console.log('a',props);
+  const { menu, dispatch, todo } = props;
   const { initialState, setInitialState } = useModel('@@initialState');
-  console.log(todo)
-  const [todoCount, settodoCount] = useState(0)
+  console.log(todo);
+  const [todoCount, settodoCount] = useState(0);
   // useEffect(async ()=>{
   //   let res=await getTodoLists()
   //   settodoCount(res.filter(e=>e.status===0).length)
@@ -122,4 +122,4 @@ const AvatarDropdown: React.FC<GlobalHeaderRightProps> = (props) => {
   );
 };
 
-export default AvatarDropdown
+export default AvatarDropdown;

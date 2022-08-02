@@ -14,14 +14,26 @@
     ],
   },
   {
-    path:'/',
-    redirect:'/dashboard'
+    path: '/',
+    redirect: '/dashboard',
   },
   {
     path: '/dashboard',
     name: 'dashboard',
     icon: 'smile',
     component: './DashBoard',
+  },
+  {
+    path: '/users',
+    name: 'users',
+    icon: 'UserOutlined',
+    component: './Users',
+  },
+  {
+    path: '/goods',
+    name: 'goods',
+    icon: 'ShoppingOutlined',
+    component: './Goods',
   },
   {
     path: '/admin',

@@ -51,4 +51,7 @@ export default {
   'menu.editor.koni': '拓扑编辑器',
   'menu.todo': '待办事项',
   'menu.dashboard': '首页统计',
+  'menu.users': '用户列表',
+  //TODO locals
+  'menu.goods': '商品列表',
 };
